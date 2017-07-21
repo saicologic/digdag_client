@@ -1,4 +1,4 @@
-# digdag-ruby-client
+# digdag_client
 
 This library allows you to access the [Digdag Server](https://github.com/treasure-data/digdag) via Ruby.
 
@@ -10,13 +10,13 @@ If you want to see the implementation of the server please refer to the followin
 # Install
 
 ```
-gem install digdag-ruby-client
+gem install digdag_client
 ```
 
 # Usage
 
 ```
-require 'digdag'
+require 'digdag_client'
 ```
 
 # Implemented
