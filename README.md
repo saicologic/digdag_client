@@ -17,7 +17,24 @@ gem install digdag_client
 
 ```
 require 'digdag_client'
+
+client = Digdag::Client.new
+client.get_sessions
 ```
+
+default endpoint: http://localhost:65432/
+
+## Change endpoint
+
+
+```
+client = Digdag::Client.new(
+  endpoint: 'http://localhost:8000/'
+)
+```
+
+# Document
+http://www.rubydoc.info/gems/digdag_client/0.0.2/Digdag/Client
 
 # Implemented
 
