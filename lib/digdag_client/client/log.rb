@@ -16,7 +16,7 @@ module Digdag
           options[:task] = params[:task]
         end
 
-        get("/logs/#{attempt_id}/files", params)
+        get("logs/#{attempt_id}/files", params)
       end
 
       def get_file(attempt_id, file_name)

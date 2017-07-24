@@ -3,7 +3,7 @@ require File.expand_path('../lib/digdag_client/version', __FILE__)
 
 Gem::Specification.new do |spec|
 
-  spec.add_runtime_dependency('faraday', ['~> 0.12'])
+  spec.add_runtime_dependency('faraday', ['~>0.9'])
   spec.add_runtime_dependency('faraday_middleware', ['~> 0.11'])
 
   spec.name          = "digdag_client"

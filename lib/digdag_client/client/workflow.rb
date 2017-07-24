@@ -7,7 +7,7 @@ module Digdag
         options[:project] = params[:project]
         options[:name] = params[:name]
 
-        get('/workflow', options)
+        get('workflow', options)
       end
 
       def get_workflows(params={})
@@ -20,11 +20,11 @@ module Digdag
           options[:last_id] = params[:last_id]
         end
 
-        get('/workflows', options)["workflows"]
+        get('workflows', options)["workflows"]
       end
 
       def get_workflow(id)
-        get("/workflows/#{id}")
+        get("workflows/#{id}")
       end
     end
   end
