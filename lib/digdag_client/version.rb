@@ -1,3 +1,3 @@
 module Digdag
-  VERSION = '0.0.2'.freeze unless defined?(::Digdag::VERSION)
+  VERSION = '0.0.3'.freeze unless defined?(::Digdag::VERSION)
 end
