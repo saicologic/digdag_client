@@ -5,10 +5,6 @@ module Digdag
         # TODO
       end
 
-      def get_schedules
-        # TODO
-      end
-
       def skip_schedule
         # TODO
       end
